@@ -1,47 +1,6 @@
 # supervised-ML
 
-# Naive Random Oversampling
-precision score: 
-
-  High_risk: 0.01
-  
-  low_risk: 1.00
-
-recall scores:
-
-  High_risk: 0.64
-
-  low_risk: 0.63
-
-blanaced accuracy score: 0.636
-
-# SMOTE Oversampling
-precision score: 
-  High_risk: 0.01
-  low_risk: 1.00
-recall scores:
-  High_risk: 0.61
-  low_risk: 0.68
-blanaced accuracy score: 0.642
-
-# Undersampling
-precision score: 
-  High_risk: 0.01
-  low_risk: 1.00
-recall scores:
-  High_risk: 0.61
-  low_risk: 0.42
-blanaced accuracy score: 0.520
-
-# Combination (Over and Under) Sampling
-precision score: 
-  High_risk: 0.01
-  low_risk: 1.00
-recall scores:
-  High_risk: 0.72
-  low_risk: 0.57
-blanaced accuracy score: 0.647
-
+# Analysis
 The precision score looks at how many predicted instances are accuratly predicted. 
 The precision scores for low_risk is 1.00 and for high_risk is 0.01 across tests because there are a high number of data points for low_risk and a low amount of data points for high_risk. 17118 and 97, respectively. This makes it easier to get accurate predictions for low risk instances since there are so many more instances.
 
@@ -55,4 +14,65 @@ All accuracy scores apart from Undersampling are around 64% with Undersampling h
 
 # Final Recommendation
 I would not use any of the models, because of the low precision for high risk and their overall lower recall and accuracy scores. My next step would be to scale the data to increase precision for high risk and re run the models.
+
+### Naive Random Oversampling
+precision score: 
+
+  High_risk: 0.01
+  
+  low_risk: 1.00
+
+recall scores:
+
+  High_risk: 0.64
+
+  low_risk: 0.63
+
+balanced accuracy score: 0.636
+
+# SMOTE Oversampling
+precision score: 
+
+  High_risk: 0.01
+  
+  low_risk: 1.00
+  
+recall scores:
+
+  High_risk: 0.61
+  
+  low_risk: 0.68
+  
+balanced accuracy score: 0.642
+
+# Undersampling
+precision score: 
+
+  High_risk: 0.01
+  
+  low_risk: 1.00
+  
+recall scores:
+
+  High_risk: 0.61
+  
+  low_risk: 0.42
+  
+balanced accuracy score: 0.520
+
+# Combination (Over and Under) Sampling
+precision score: 
+
+  High_risk: 0.01
+  
+  low_risk: 1.00
+  
+recall scores:
+
+  High_risk: 0.72
+  
+  low_risk: 0.57
+  
+balanced accuracy score: 0.647
+
 
