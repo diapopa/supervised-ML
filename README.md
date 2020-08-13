@@ -1,5 +1,3 @@
-# supervised-ML
-
 # Analysis
 The precision score looks at how many predicted instances are accuratly predicted. 
 The precision scores for low_risk is 1.00 and for high_risk is 0.01 across tests because there are a high number of data points for low_risk and a low amount of data points for high_risk. 17118 and 97, respectively. This makes it easier to get accurate predictions for low risk instances since there are so many more instances.
@@ -30,7 +28,7 @@ recall scores:
 
 balanced accuracy score: 0.636
 
-# SMOTE Oversampling
+### SMOTE Oversampling
 precision score: 
 
   High_risk: 0.01
@@ -45,7 +43,7 @@ recall scores:
   
 balanced accuracy score: 0.642
 
-# Undersampling
+### Undersampling
 precision score: 
 
   High_risk: 0.01
@@ -60,7 +58,7 @@ recall scores:
   
 balanced accuracy score: 0.520
 
-# Combination (Over and Under) Sampling
+### Combination (Over and Under) Sampling
 precision score: 
 
   High_risk: 0.01
