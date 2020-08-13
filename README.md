@@ -2,11 +2,17 @@
 
 # Naive Random Oversampling
 precision score: 
+
   High_risk: 0.01
+  
   low_risk: 1.00
+
 recall scores:
+
   High_risk: 0.64
+
   low_risk: 0.63
+
 blanaced accuracy score: 0.636
 
 # SMOTE Oversampling
